@@ -66,7 +66,7 @@ namespace ariel{
 
 
 
-    void Cowboy::print(){
+    string Cowboy::print(){
 
         string output;
 
@@ -77,7 +77,7 @@ namespace ariel{
         output += outP;
         output += "NumHits:- " + to_string(this->getNumHits());
 
-        cout << output <<endl;
+        return output;
 
     }
 

@@ -21,7 +21,7 @@ class OldNinja:public Ninja{
     public:
     OldNinja(string name,Point point);
     void move(Character *character)override;
-    void print() override;
+    string print() override;
 
     string getName()const override;
     int getSpeed();

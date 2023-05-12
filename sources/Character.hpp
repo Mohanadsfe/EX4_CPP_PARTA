@@ -39,7 +39,7 @@ class Character{
     Point getLocation()const;
     virtual string getName()const;
     virtual void setName(const string &name);
-    virtual void print()=0;
+    virtual string print()=0;
     virtual void move(Character *character)=0;
     bool hasboolets(); // check if there more bullets in the stack of the gun.
     double distance(Character *character);

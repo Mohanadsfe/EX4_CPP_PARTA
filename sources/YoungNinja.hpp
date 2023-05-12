@@ -19,7 +19,7 @@ class YoungNinja:public Ninja{
 
     public:
     YoungNinja(string name,Point point);
-    void print() override;
+    string print() override;
     string getName()const override;
     int getSpeed();
     void setName(const std::string &name)override;

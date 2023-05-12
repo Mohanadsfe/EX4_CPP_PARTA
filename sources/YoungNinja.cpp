@@ -42,7 +42,7 @@ namespace ariel{
 
      }
     
-    void YoungNinja::print(){
+    string YoungNinja::print(){
 
             string outP = " Point:- " + this->getLocation().Print();
 
@@ -50,7 +50,7 @@ namespace ariel{
              + " Speed:- " + to_string(this->getSpeed());
             str +=  " NumHits:- " + to_string(this->getNumHits());
 
-            cout << str;
+            return str;
 
     }
 

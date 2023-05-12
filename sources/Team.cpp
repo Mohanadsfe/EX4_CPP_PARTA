@@ -105,7 +105,7 @@ namespace ariel{
         {
           if(team[(unsigned int)i]!=NULL){
            cout << "Soldier Number " + to_string(i+1) << std::endl;
-           team[(unsigned int)i]->print();
+          cout <<  team[(unsigned int)i]->print();
            
            cout << endl;
 

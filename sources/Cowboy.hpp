@@ -26,7 +26,7 @@ class Cowboy: public Character{
     Cowboy& operator=(Cowboy  const &other);
     bool operator!=(const Cowboy &other);
     bool operator==(const Cowboy &other);
-    void print() override;
+    string print() override;
     string getName()const override;
     void setName(string const &name)override;
     void setPoint(Point &point);

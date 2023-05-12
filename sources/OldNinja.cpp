@@ -33,12 +33,12 @@ namespace ariel{
 
 
     
-      void OldNinja::print(){
+      string OldNinja::print(){
             
             string str = "N Name:-  " + this->getName() + "Point:- " + this->getLocation().Print() + "Speed:- " + to_string(this->getSpeed());
             str +=  " NumHits:- " + to_string(this->getNumHits());
 
-            cout << str;
+            return  str;
 
       }
 

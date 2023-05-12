@@ -16,7 +16,7 @@ class TrainedNinja:public Ninja{
     public:
     TrainedNinja(string name,Point point);
     void move(Character *character)override;
-    void print() override;
+    string print() override;
     string getName()const override;
     int getSpeed();
     void setName(const std::string &name)override;
